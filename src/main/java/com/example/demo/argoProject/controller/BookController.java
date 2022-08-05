@@ -23,7 +23,7 @@ public class BookController {
         bookServiceImpl.addBook(book);
     }
 
-    @GetMapping("/findall")
+    @GetMapping("/findallbooks")
     public HashSet<Book> getAllBook() {
         return bookServiceImpl.findAllBook();
     }
